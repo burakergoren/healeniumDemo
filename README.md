@@ -13,12 +13,12 @@ This is a Healenium web demo project using Java, Maven, and JUnit. It features a
 
 ### Setup
 
-1. **Navigate to the resources directory:**
+1. Navigate to the resources directory:**
    ```sh
    cd healenium-poc/src/main/resources
    ```
 
-2. **Start Healenium components using Docker Compose:**
+2. Start Healenium components using Docker Compose:**
    ```sh
    docker-compose up -d
    ```
