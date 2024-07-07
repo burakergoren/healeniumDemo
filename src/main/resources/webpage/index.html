@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+    <script>
+        function displayText() {
+            var inputText = document.getElementById("inputText").value;
+            document.getElementById("displayArea").innerText = inputText;
+        }
+    </script>
+</head>
+<body>
+<h1>Input Text and Display</h1>
+<form onsubmit="event.preventDefault(); displayText();">
+    <label for="inputText">Enter text: </label>
+    <input type="text" id="inputText" name="inputText">
+    <button type="submit">Submit</button>
+</form>
+<p id="displayArea"></p>
+</body>
+</html>
