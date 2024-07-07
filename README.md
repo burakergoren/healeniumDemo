@@ -1,7 +1,9 @@
 ```markdown
 # HealeniumDemo
 
-This is a Healenium web demo project using Java, Maven, and JUnit. It features a simple HTML web page and includes a Docker Compose file for integrating Healenium components.
+This is a Healenium web demo project using Java, Maven, and JUnit. 
+
+It features a simple HTML web page and includes a Docker Compose file for integrating Healenium components.
 
 ## Getting Started
 
